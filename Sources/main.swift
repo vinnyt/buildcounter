@@ -1,5 +1,4 @@
 import Vapor
-import VaporMysql
 
 let drop = Droplet()
 
