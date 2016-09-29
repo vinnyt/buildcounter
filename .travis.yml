@@ -4,5 +4,4 @@ language: generic
 sudo: required
 dist: trusty
 script:
-  - eval "apt-get install mysql-client"
   - eval "$(curl -sL https://swift.vapor.sh/ci)"
