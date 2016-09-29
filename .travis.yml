@@ -3,6 +3,6 @@ os:
 language: generic
 sudo: required
 dist: trusty
-addons: mysql
 script:
+  - eval "apt-get install mysql-client"
   - eval "$(curl -sL https://swift.vapor.sh/ci)"
